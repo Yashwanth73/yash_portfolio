@@ -1,0 +1,169 @@
+.menu li {
+    display: inline;
+    padding-right: 1.2em;
+    font-family: "Open Sans", sans-serif;
+    text-transform: uppercase;
+    color: white;
+    padding: 2rem 2rem 2rem 2rem;
+
+}
+
+.menu a {
+    text-decoration: none;
+}
+
+.header {
+    flex-direction: column;
+    float: left;
+    text-align: center;
+    color: black;
+    background-color: black;
+    /* margin-bottom: 100px; */
+    width: 100%;
+}
+
+.devimg {
+    float: right;
+    width: 50%;
+}
+
+.devinfo {
+    float: left;
+    width: 50%;
+}
+
+.devinfo h1 {
+    font-size: 100px;
+    font-family: "Jersey 25", sans-serif;
+    font-weight: 400;
+    text-transform: capitalize;
+}
+
+.skills {
+    float: left;
+    width: 100%;
+    font-size: 50px;
+    font-family: "Jersey 25", sans-serif;
+    font-weight: 200;
+    text-transform: capitalize;
+    text-align: center;
+}
+
+.skill_name {
+    float: left;
+    width: 20%;
+    border-radius: 20px;
+    font-size: 25px;
+    font-weight: 200;
+}
+
+.projects {
+    float: left;
+    width: 100%;
+    font-size: 50px;
+    font-family: "Jersey 25", sans-serif;
+    font-weight: 200;
+    text-transform: capitalize;
+    text-align: center;
+    justify-content: center;
+}
+
+.pro {
+    width: 100%;
+    justify-content: center;
+    float: left;
+    height: 22rem;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 2rem;
+    transition: 0.3s;
+    padding: 2px 16px;
+}
+
+.pro:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.proimg {
+    width: 50%;
+    float: left;
+}
+
+.proinfo {
+    width: 50%;
+    float: right;
+    font-size: 20px;
+}
+
+.proinfo h3 {
+    font-size: 30px;
+}
+
+.contact {
+    border-radius: 50px;
+
+    float: left;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    justify-items: center;
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+}
+
+.contact h3 {
+    font-size: 40px;
+}
+
+/* Style inputs with type="text", select elements and textareas */
+input[type=text],
+select,
+textarea {
+    width: 100%;
+    /* Full width */
+    padding: 12px;
+    /* Some padding */
+    border: 1px solid #ccc;
+    /* Gray border */
+    border-radius: 4px;
+    /* Rounded borders */
+    box-sizing: border-box;
+    /* Make sure that padding and width stays in place */
+    margin-top: 6px;
+    /* Add a top margin */
+    margin-bottom: 16px;
+    /* Bottom margin */
+    resize: vertical
+        /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+    background-color: #254ccc;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+    background-color: #2ed32e;
+}
+
+/* Add a background color and some padding around the form */
+.container {
+    border-radius: 5px;
+    width: 100%;
+    margin-top: 20px;
+    float: left;
+    margin: auto;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
